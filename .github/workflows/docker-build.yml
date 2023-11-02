@@ -34,7 +34,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: radekmuhlfeit2/audiobookshelf,ghcr.io/${{ github.repository_owner }}/audiobookshelf
+          images: advplyr/audiobookshelf,ghcr.io/${{ github.repository_owner }}/audiobookshelf
           tags: |
             type=edge,branch=master
             type=semver,pattern={{version}}
